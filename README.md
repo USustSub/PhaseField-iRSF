@@ -1,6 +1,6 @@
 # Phase Field Method for Earthquake Sequences
 
-Phase field model for Sequences of Earthquakes and Aseismic Slip (SEAS) using an invariant, consistently-linearized formulation of rate-and-state friction. The phase field method introduces regularisation of the fault width ensuring convergence of both strain-rate and strain-dependent properties, making it suitable for the accurate simulation fluid flow through fault zones. Results are in agreement with a discrete Finite Element Method model. Explanations and comparison are available in Gourdarzi et al., Computational Mechanics, 2023. 
+Phase field model for Sequences of Earthquakes and Aseismic Slip (SEAS) using an invariant, consistently-linearized formulation of rate-and-state friction. This invariant formulation does not require the prescription of a fault, such that faults, fault zones, and ruptures can evolve spontaneously in response to the local stress and strength fields. The phase field method introduces regularisation of the fault width ensuring convergence of both strain-rate and strain-dependent properties, making it suitable for the accurate simulation fluid flow through fault zones. Results are in agreement with a discrete Finite Element Method model. Explanations and comparison are available in Gourdarzi et al., Computational Mechanics, 2023. 
 
 Goudarzi, M., Gerya, T. & Dinther, Y. van. A comparative analysis of continuum plasticity, viscoplasticity and phase-field models for earthquake sequence modeling. Comput. Mech. 1–19 (2023) doi:10.1007/s00466-023-02311-0.
 
