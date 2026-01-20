@@ -1,0 +1,17 @@
+#!/bin/sh
+#
+#PBS -N ph_f_2
+#PBS -l nodes=1:ppn=1
+#PBS -q default
+#PBS -M m.goudarzi@tudelft.nl
+#PBS -o out.$PBS_JOBID
+#PBS -e err.$PBS_JOBID
+
+
+source /home/everybody/profile.d/optpath.sh
+
+# Start echo_test example job
+MATLAB_HOME=/opt/ud/Matlab-R2017b/bin
+cd $PBS_O_WORKDIR
+# $MATLAB_HOME/matlab -nosplash -nodisplay -nojvm -singleCompThread < Program_test_Final_v3.m
+$MATLAB_HOME/matlab -nosplash -nodisplay -singleCompThread < run_.m > run.log
